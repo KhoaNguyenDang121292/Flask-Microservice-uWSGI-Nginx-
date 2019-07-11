@@ -1,0 +1,162 @@
+2019-06-24 18:09:06,535 - INFO: - 127.0.0.1 - Lazada Route - Start call to function lazada_export
+2019-06-24 18:09:06,536 - INFO: - 127.0.0.1 - Lazada Controller - Start call to function lazadaSingleJob
+2019-06-24 18:09:06,536 - INFO: - 127.0.0.1 - Start Lazada get datapoints
+2019-06-24 18:09:06,537 - INFO: - 127.0.0.1 - Get business information from Aspire API successfully.
+2019-06-24 18:09:06,537 - INFO: - 127.0.0.1 - Business with uuid 8e0129f7-42da-4645-88ec-79b0ac4be2de is related to different service or invalid.
+2019-06-24 18:09:06,537 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 18:09:09,133 - INFO: - 127.0.0.1 - Lazada Service - Start call to function exportSingle
+2019-06-24 18:09:09,136 - INFO: - 127.0.0.1 - ------------------[Lazada Single Job] for business 8e0129f7-42da-4645-88ec-79b0ac4be2de - Maker1982 ------------------
+2019-06-24 18:09:09,136 - INFO: - 127.0.0.1 - [Lazada Single Job] Starting generating Data Points
+2019-06-24 18:09:09,137 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getProductItemsJSON
+2019-06-24 18:09:15,392 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getOrdersJSON
+2019-06-24 18:11:53,964 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerJSON
+2019-06-24 18:11:55,793 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerMetricsJSON
+2019-06-24 18:11:57,330 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getCategoryTreeJSON
+2019-06-24 18:12:05,220 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getTransactionDetailsJSON
+2019-06-24 18:20:07,925 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getOrdersRawDF
+2019-06-24 18:20:08,054 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellersRawDF
+2019-06-24 18:20:08,057 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellerMetricsRawDF
+2019-06-24 18:20:08,060 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapCategoryTreeRawDF
+2019-06-24 18:20:08,141 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapProductItemsRawDF
+2019-06-24 18:20:08,149 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapTransDetailsRawDF
+2019-06-24 18:20:08,289 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapOrdersToDF
+2019-06-24 18:20:08,290 - INFO: - 127.0.0.1 - Orders data for business 8e0129f7-42da-4645-88ec-79b0ac4be2de is available.
+2019-06-24 18:20:10,028 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getMonthlyRevenueDF
+2019-06-24 18:20:10,044 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getPaymentMethodDF
+2019-06-24 18:20:10,051 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getUniqueCustomers
+2019-06-24 18:20:10,150 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 18:20:10,997 - INFO: - 127.0.0.1 - Business Adapter - Start call to function getDirectorEducational
+2019-06-24 18:20:10,998 - WARNING: - 127.0.0.1 - Get business director educational failed. Error 'Response' object is not subscriptable
+2019-06-24 18:20:10,998 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getAvgTransaction
+2019-06-24 18:20:11,005 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function generateDataPoints
+2019-06-24 18:20:11,006 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getRevVol
+2019-06-24 18:20:11,007 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function calculateReturnOrdersRatio
+2019-06-24 18:20:11,010 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function calculateCancelledOrdersRatio
+2019-06-24 18:20:11,014 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function calculateNumberOfCust
+2019-06-24 18:20:11,016 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getFirstOrdersDate
+2019-06-24 18:20:11,017 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getMonthSinceFirstOrder
+2019-06-24 18:20:11,018 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellerMetricsRawDF
+2019-06-24 18:20:11,019 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsShipOnTime
+2019-06-24 18:20:11,020 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsResponseTime
+2019-06-24 18:20:11,020 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsResponseRate
+2019-06-24 18:20:11,020 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsMainCategoryName
+2019-06-24 18:20:12,184 - INFO: - 127.0.0.1 - Start upload file 2019-06-24_18:09:09_lazada_analysis_8e0129f7-42da-4645-88ec-79b0ac4be2de.xlsxfor business 8e0129f7-42da-4645-88ec-79b0ac4be2de into production dashboard.
+2019-06-24 18:20:12,184 - INFO: - 127.0.0.1 - Upload Service - Start call to function uploadFileMultipart
+2019-06-24 18:20:13,257 - INFO: - 127.0.0.1 - Lazada Export Data Points for 8e0129f7-42da-4645-88ec-79b0ac4be2de successfully.
+2019-06-24 18:20:34,237 - INFO: - 127.0.0.1 - Lazada Route - Start call to function lazada_export
+2019-06-24 18:20:34,237 - INFO: - 127.0.0.1 - Lazada Controller - Start call to function lazadaSingleJob
+2019-06-24 18:20:34,237 - INFO: - 127.0.0.1 - Start Lazada get datapoints
+2019-06-24 18:20:34,238 - INFO: - 127.0.0.1 - Get business information from Aspire API successfully.
+2019-06-24 18:20:34,238 - INFO: - 127.0.0.1 - Business with uuid 8dfff3b3-7d4e-4342-a3da-cd4d840164da is related to different service or invalid.
+2019-06-24 18:20:34,238 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 18:20:37,818 - INFO: - 127.0.0.1 - Lazada Service - Start call to function exportSingle
+2019-06-24 18:20:37,822 - INFO: - 127.0.0.1 - ------------------[Lazada Single Job] for business 8dfff3b3-7d4e-4342-a3da-cd4d840164da - Ynz ------------------
+2019-06-24 18:20:37,822 - INFO: - 127.0.0.1 - [Lazada Single Job] Starting generating Data Points
+2019-06-24 18:20:37,822 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getProductItemsJSON
+2019-06-24 18:20:41,218 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getOrdersJSON
+2019-06-24 19:02:34,635 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerJSON
+2019-06-24 19:02:35,862 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerMetricsJSON
+2019-06-24 19:02:37,091 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getCategoryTreeJSON
+2019-06-24 19:02:43,646 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getTransactionDetailsJSON
+2019-06-24 19:08:34,279 - INFO: - 127.0.0.1 - Lazada Route - Start call to function lazada_export
+2019-06-24 19:08:34,280 - INFO: - 127.0.0.1 - Lazada Controller - Start call to function lazadaSingleJob
+2019-06-24 19:08:34,280 - INFO: - 127.0.0.1 - Start Lazada get datapoints
+2019-06-24 19:08:34,280 - INFO: - 127.0.0.1 - business_uuid parameter is required
+2019-06-24 19:09:20,870 - INFO: - 127.0.0.1 - Lazada Route - Start call to function lazada_export
+2019-06-24 19:09:20,871 - INFO: - 127.0.0.1 - Lazada Controller - Start call to function lazadaSingleJob
+2019-06-24 19:09:20,871 - INFO: - 127.0.0.1 - Start Lazada get datapoints
+2019-06-24 19:09:20,871 - INFO: - 127.0.0.1 - Get business information from Aspire API successfully.
+2019-06-24 19:09:20,871 - INFO: - 127.0.0.1 - Business with uuid 8e00d117-7262-43fa-9228-5ff9f0a8b85f is related to different service or invalid.
+2019-06-24 19:09:20,872 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 19:09:22,527 - INFO: - 127.0.0.1 - Lazada Service - Start call to function exportSingle
+2019-06-24 19:09:22,530 - INFO: - 127.0.0.1 - ------------------[Lazada Single Job] for business 8e00d117-7262-43fa-9228-5ff9f0a8b85f - Selecta Farm ------------------
+2019-06-24 19:09:22,530 - INFO: - 127.0.0.1 - [Lazada Single Job] Starting generating Data Points
+2019-06-24 19:09:22,530 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getProductItemsJSON
+2019-06-24 19:09:24,130 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getOrdersJSON
+2019-06-24 19:11:05,325 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerJSON
+2019-06-24 19:11:07,202 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerMetricsJSON
+2019-06-24 19:11:09,020 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getCategoryTreeJSON
+2019-06-24 19:11:16,604 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getTransactionDetailsJSON
+2019-06-24 19:16:28,218 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getOrdersRawDF
+2019-06-24 19:16:28,302 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellersRawDF
+2019-06-24 19:16:28,305 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellerMetricsRawDF
+2019-06-24 19:16:28,310 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapCategoryTreeRawDF
+2019-06-24 19:16:28,392 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapProductItemsRawDF
+2019-06-24 19:16:28,393 - WARNING: - 127.0.0.1 - Map product items failed. Error 'amount'
+2019-06-24 19:16:28,393 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapTransDetailsRawDF
+2019-06-24 19:16:28,462 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapOrdersToDF
+2019-06-24 19:16:28,462 - INFO: - 127.0.0.1 - Orders data for business 8e00d117-7262-43fa-9228-5ff9f0a8b85f is available.
+2019-06-24 19:16:29,426 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getMonthlyRevenueDF
+2019-06-24 19:16:29,454 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getPaymentMethodDF
+2019-06-24 19:16:29,464 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getUniqueCustomers
+2019-06-24 19:16:29,522 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 19:16:30,344 - INFO: - 127.0.0.1 - Business Adapter - Start call to function getDirectorEducational
+2019-06-24 19:16:30,345 - WARNING: - 127.0.0.1 - Get business director educational failed. Error 'Response' object is not subscriptable
+2019-06-24 19:16:30,345 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getAvgTransaction
+2019-06-24 19:16:30,351 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function generateDataPoints
+2019-06-24 19:16:30,352 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getRevVol
+2019-06-24 19:16:30,353 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function calculateReturnOrdersRatio
+2019-06-24 19:16:30,355 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function calculateCancelledOrdersRatio
+2019-06-24 19:16:30,358 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function calculateNumberOfCust
+2019-06-24 19:16:30,360 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getFirstOrdersDate
+2019-06-24 19:16:30,361 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getMonthSinceFirstOrder
+2019-06-24 19:16:30,361 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellerMetricsRawDF
+2019-06-24 19:16:30,361 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsShipOnTime
+2019-06-24 19:16:30,362 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsResponseTime
+2019-06-24 19:16:30,362 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsResponseRate
+2019-06-24 19:16:30,362 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getSellerMetricsMainCategoryName
+2019-06-24 19:16:31,085 - INFO: - 127.0.0.1 - Start upload file 2019-06-24_19:09:22_lazada_analysis_8e00d117-7262-43fa-9228-5ff9f0a8b85f.xlsxfor business 8e00d117-7262-43fa-9228-5ff9f0a8b85f into production dashboard.
+2019-06-24 19:16:31,086 - INFO: - 127.0.0.1 - Upload Service - Start call to function uploadFileMultipart
+2019-06-24 19:16:31,877 - INFO: - 127.0.0.1 - Lazada Export Data Points for 8e00d117-7262-43fa-9228-5ff9f0a8b85f successfully.
+2019-06-24 19:18:39,509 - INFO: - 127.0.0.1 - Lazada Route - Start call to function lazada_export
+2019-06-24 19:18:39,509 - INFO: - 127.0.0.1 - Lazada Controller - Start call to function lazadaSingleJob
+2019-06-24 19:18:39,510 - INFO: - 127.0.0.1 - Start Lazada get datapoints
+2019-06-24 19:18:39,510 - INFO: - 127.0.0.1 - Get business information from Aspire API successfully.
+2019-06-24 19:18:39,510 - INFO: - 127.0.0.1 - Business with uuid 8df70c37-ea1e-46ae-9b3e-cb77b99fc94b is related to different service or invalid.
+2019-06-24 19:18:39,510 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 19:18:42,401 - INFO: - 127.0.0.1 - Lazada Service - Start call to function exportSingle
+2019-06-24 19:18:42,404 - INFO: - 127.0.0.1 - ------------------[Lazada Single Job] for business 8df70c37-ea1e-46ae-9b3e-cb77b99fc94b - G&g ------------------
+2019-06-24 19:18:42,405 - INFO: - 127.0.0.1 - [Lazada Single Job] Starting generating Data Points
+2019-06-24 19:18:42,405 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getProductItemsJSON
+2019-06-24 19:18:44,081 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getOrdersJSON
+2019-06-24 19:18:48,114 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerJSON
+2019-06-24 19:18:49,548 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerMetricsJSON
+2019-06-24 19:18:51,051 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getCategoryTreeJSON
+2019-06-24 19:18:57,845 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getTransactionDetailsJSON
+2019-06-24 19:19:03,518 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getOrdersRawDF
+2019-06-24 19:19:03,519 - WARNING: - 127.0.0.1 - Get orders raw failed. Error 'amount'
+2019-06-24 19:19:03,520 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellersRawDF
+2019-06-24 19:19:03,525 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapSellerMetricsRawDF
+2019-06-24 19:19:03,527 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapCategoryTreeRawDF
+2019-06-24 19:19:03,605 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapProductItemsRawDF
+2019-06-24 19:19:03,606 - WARNING: - 127.0.0.1 - Map product items failed. Error 'amount'
+2019-06-24 19:19:03,606 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapTransDetailsRawDF
+2019-06-24 19:19:03,607 - WARNING: - 127.0.0.1 - Map transaction details failed. Error 'amount'
+2019-06-24 19:19:03,607 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function mapOrdersToDF
+2019-06-24 19:19:03,608 - INFO: - 127.0.0.1 - Orders data for business 8df70c37-ea1e-46ae-9b3e-cb77b99fc94b is available.
+2019-06-24 19:19:03,608 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getMonthlyRevenueDF
+2019-06-24 19:19:03,608 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getPaymentMethodDF
+2019-06-24 19:19:03,609 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getUniqueCustomers
+2019-06-24 19:19:03,609 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 19:19:04,407 - INFO: - 127.0.0.1 - Business Adapter - Start call to function getDirectorEducational
+2019-06-24 19:19:04,408 - WARNING: - 127.0.0.1 - Get business director educational failed. Error 'Response' object is not subscriptable
+2019-06-24 19:19:04,409 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function getAvgTransaction
+2019-06-24 19:19:04,409 - INFO: - 127.0.0.1 - Lazada Adapter - Start call to function generateDataPoints
+2019-06-24 19:19:04,473 - INFO: - 127.0.0.1 - Lazada Export Data Points for 8df70c37-ea1e-46ae-9b3e-cb77b99fc94b successfully. Data points is empty.
+2019-06-24 19:19:04,473 - INFO: - 127.0.0.1 - Start upload file 2019-06-24_19:18:42_lazada_analysis_8df70c37-ea1e-46ae-9b3e-cb77b99fc94b.xlsxfor business 8df70c37-ea1e-46ae-9b3e-cb77b99fc94b into production dashboard.
+2019-06-24 19:19:04,473 - INFO: - 127.0.0.1 - Upload Service - Start call to function uploadFileMultipart
+2019-06-24 19:19:20,355 - INFO: - 127.0.0.1 - Lazada Route - Start call to function lazada_export
+2019-06-24 19:19:20,356 - INFO: - 127.0.0.1 - Lazada Controller - Start call to function lazadaSingleJob
+2019-06-24 19:19:20,356 - INFO: - 127.0.0.1 - Start Lazada get datapoints
+2019-06-24 19:19:20,356 - INFO: - 127.0.0.1 - Get business information from Aspire API successfully.
+2019-06-24 19:19:20,356 - INFO: - 127.0.0.1 - Business with uuid 8dffd2e3-0bcf-484b-bc3e-480ee34ec3f2 is related to different service or invalid.
+2019-06-24 19:19:20,356 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-24 19:19:22,848 - INFO: - 127.0.0.1 - Lazada Service - Start call to function exportSingle
+2019-06-24 19:19:22,851 - INFO: - 127.0.0.1 - ------------------[Lazada Single Job] for business 8dffd2e3-0bcf-484b-bc3e-480ee34ec3f2 - Volimania-sport ------------------
+2019-06-24 19:19:22,851 - INFO: - 127.0.0.1 - [Lazada Single Job] Starting generating Data Points
+2019-06-24 19:19:22,851 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getProductItemsJSON
+2019-06-24 19:19:28,876 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getOrdersJSON
+2019-06-24 19:36:38,369 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerJSON
+2019-06-24 19:36:39,910 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerMetricsJSON
+2019-06-24 19:36:41,331 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getCategoryTreeJSON
+2019-06-24 19:36:50,044 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getTransactionDetailsJSON

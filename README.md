@@ -1,2 +1,4 @@
-# Flask-Microservice-uWSGI-Nginx-
-Use for microservice
+# test-api-project
+
+- Run with docker:
+Bash command: bash bash/rebuild_code.sh

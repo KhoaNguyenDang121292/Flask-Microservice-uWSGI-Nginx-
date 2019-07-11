@@ -1,0 +1,15 @@
+2019-06-21 17:53:33,669 - INFO: - 127.0.0.1 - Lazada Route - Start call to function lazada_export
+2019-06-21 17:53:33,669 - INFO: - 127.0.0.1 - Lazada Controller - Start call to function lazadaSingleJob
+2019-06-21 17:53:33,669 - INFO: - 127.0.0.1 - Start Lazada get datapoints
+2019-06-21 17:53:33,670 - INFO: - 127.0.0.1 - Get business information from Aspire API successfully.
+2019-06-21 17:53:33,670 - INFO: - 127.0.0.1 - Business with uuid 8df96a3f-686a-4225-aa8b-6b7759ea93c3 is related to different service or invalid.
+2019-06-21 17:53:33,670 - INFO: - 127.0.0.1 - Business Service Caller - Start call to function getBusinessInfo
+2019-06-21 17:53:35,856 - INFO: - 127.0.0.1 - Lazada Service - Start call to function exportSingle
+2019-06-21 17:53:35,858 - INFO: - 127.0.0.1 - ------------------[Lazada Single Job] for business 8df96a3f-686a-4225-aa8b-6b7759ea93c3 - Tingja Sale ------------------
+2019-06-21 17:53:35,859 - INFO: - 127.0.0.1 - [Lazada Single Job] Starting generating Data Points
+2019-06-21 17:53:35,859 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getOrdersJSON
+2019-06-21 17:59:26,883 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerJSON
+2019-06-21 17:59:28,317 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getSellerMetricsJSON
+2019-06-21 17:59:29,751 - INFO: - 127.0.0.1 - Lazada Service - Start call to function getCategoryTreeJSON
+2019-06-21 17:59:31,628 - ERROR: - 127.0.0.1 - ERROR - Business uuid: 8df96a3f-686a-4225-aa8b-6b7759ea93c3 - Tingja Sale trace some errors when executing. Error message: ('Connection broken: IncompleteRead(3945 bytes read, 4239 more expected)', IncompleteRead(3945 bytes read, 4239 more expected))
+2019-06-21 17:59:31,654 - INFO: - 127.0.0.1 - Integrations endpoint error: ('Connection broken: IncompleteRead') when calling. Please try again.
